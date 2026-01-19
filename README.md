@@ -1,2 +1,2 @@
 # PQC_scanner
-CryptoLens provides Secure Today against Tomorrow's Threats. Quantum computers will break modern encryption. My PQC Readiness Scanner automates the discovery of quantum-vulnerable algorithms across your entire infrastructure. Bridge the gap between legacy crypto and quantum-resilience with a single command.
+This is a python based CLI tool that enumerates the encryption standards on your domain. Simply create a CSV file of your target domains and run this software via your CLI python pqcscan.py scan --input targets.csv --out ./results. Prior to running you scan ensure pip install cryptography is enabled and installed. Do NOT use this tool on aunthorized domains as you are subject to criminal offense.
