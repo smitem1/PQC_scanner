@@ -66,3 +66,23 @@ Misuse of this tool is the responsibility of the operator.
 ### Disclaimer
 The authors assume **no liability** for misuse of this software.  
 Users are responsible for ensuring all scans are legal, authorized, and ethical.
+
+Public websites & APIs (HTTPS on 443, 8443, 9443)
+
+Internal web services (behind VPN or on private networks)
+
+Cloud endpoints (AWS, Azure, GCP services)
+
+Load balancers & reverse proxies
+
+IoT devices & gateways that expose TLS
+
+MQTT brokers over TLS (e.g., port 8883)
+
+Network appliances (firewalls, routers, management interfaces)
+
+Internal servers with TLS-enabled services
+
+Test / staging environments
+
+The scanner only performs a TLS handshake to collect certificate and crypto metadata.
