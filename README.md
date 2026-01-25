@@ -67,6 +67,7 @@ Misuse of this tool is the responsibility of the operator.
 The authors assume **no liability** for misuse of this software.  
 Users are responsible for ensuring all scans are legal, authorized, and ethical.
 
+The scanner only performs a TLS handshake to collect certificate and crypto metadata on..
 Public websites & APIs (HTTPS on 443, 8443, 9443)
 
 Internal web services (behind VPN or on private networks)
@@ -85,4 +86,4 @@ Internal servers with TLS-enabled services
 
 Test / staging environments
 
-The scanner only performs a TLS handshake to collect certificate and crypto metadata.
+
