@@ -26,3 +26,43 @@ The output includes subscores and human-readable reasons for each endpoint to su
 
 ### Important note
 Weights and thresholds are intentionally conservative and intended to be tuned per environment, data sensitivity, and regulatory requirements.
+## Allowed Targets & Scanning Policy
+
+This tool performs **passive cryptographic posture inspection** by initiating a standard TLS handshake and analyzing the cryptographic metadata (e.g., certificates, protocol versions) that a server voluntarily presents.
+
+### What this tool does
+- Establishes a TCP connection to a specified host and port
+- Performs a standard TLS handshake (no authentication)
+- Collects publicly visible TLS and certificate metadata
+- Does **not** send application payloads
+- Does **not** decrypt traffic
+- Does **not** bypass access controls
+
+### Permitted targets
+You may use this tool **only** against systems that meet one or more of the following criteria:
+
+- Systems you own or operate
+- Systems you have explicit authorization to test
+- Public test infrastructure designed for TLS/security testing (e.g., BadSSL)
+- Reserved example domains (e.g., example.com, example.org)
+- Public internet services where basic TLS handshakes are normal and expected
+
+### Prohibited use
+You must **not** use this tool against:
+- Systems without authorization
+- Government, financial, or healthcare systems without permission
+- Targets requiring authentication
+- Any system where scanning would violate acceptable use policies or local law
+
+### Ethical use
+This project is intended for:
+- Cryptographic inventory and visibility
+- Post-quantum cryptography (PQC) migration planning
+- Harvest-now-decrypt-later (HNDL) exposure assessment
+- Security research and defensive analysis
+
+Misuse of this tool is the responsibility of the operator.
+
+### Disclaimer
+The authors assume **no liability** for misuse of this software.  
+Users are responsible for ensuring all scans are legal, authorized, and ethical.
