@@ -64,7 +64,7 @@ This project is intended for:
 Misuse of this tool is the responsibility of the operator.
 
 ### Disclaimer
-The authors assume **no liability** for misuse of this software.  
+The author assume **no liability** for misuse of this software.  
 Users are responsible for ensuring all scans are legal, authorized, and ethical.
 
 The scanner only performs a TLS handshake to collect certificate and crypto metadata on..
