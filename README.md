@@ -1,7 +1,11 @@
 # PQC_scanner
-This is a python based CLI tool that enumerates the encryption standards on your site domains to enable visibility into where you are vulnerable to PQC Algorithims. Simply create a CSV file of your target domains and run this software via your CLI python pqcscan.py scan --input targets.csv --out ./results. Prior to running your scan ensure pip install cryptography is enabled and installed. Do NOT use this tool on aunthorized domains as you are subject to criminal offense.
+This is a Python-based CLI tool that inventories the TLS encryption posture of specified domains and services to support post-quantum cryptography (PQC) readiness and crypto-agility planning.
 
-HOW TO RUN 
+The tool performs standard TLS handshakes to collect certificate and cryptographic metadata (e.g., TLS version, public-key algorithm, certificate validity) and applies a proxy-based risk model to help prioritize which endpoints may require attention as organizations plan for a future PQC transition.
+
+To use the tool, edit the targets file  CSV file and contain authorized target domains or IP addresses under the host column and run the scan from the command line. The output includes structured results (CSV/JSON) and a human-readable summary for analysis and reporting.
+
+====> HOW TO RUN..
 download pqcmvp as name: pqcscan1.0.py file  and targets file as name:  targets.csv file into one folder > name folder pqcscan_mvp > enter your target hosts under the hosts column in the targets.csv > save csv>   right click on folder open in CLI > enter  python -m pip install cryptography / if that does work try py -m pip install cryptography> then run  python pqcscan1.0.py scan --input targets.csv --out output in your CLI> check your pqcscan_mvp folder your inventory is now available =) 
 
 
