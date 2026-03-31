@@ -6,8 +6,8 @@ The following versions of **PQCScan** are currently supported with security upda
 
 | Version | Supported |
 | ------- | --------- |
-| 0.1.x   | ✅ Yes    |
-| < 0.1   | ❌ No     |
+| 0.1.x   | Yes    |
+| < 0.1   |  No     |
 
 Only the latest minor release is supported. Users are encouraged to upgrade to the most recent version to receive security fixes and improvements.
 
@@ -17,7 +17,7 @@ Only the latest minor release is supported. Users are encouraged to upgrade to t
 
 If you believe you have discovered a security vulnerability in this project, **please report it responsibly**.
 
-### 📩 How to Report
+### How to Report
 - **Do NOT open a public GitHub issue**
 - Instead, please email:  
   **` emily.smith.27b@gmail.com
@@ -26,7 +26,7 @@ If email is not possible, you may open a **private security advisory** via GitHu
 
 ---
 
-### 📝 What to Include
+###  What to Include
 Please include as much detail as possible:
 - A clear description of the vulnerability
 - Steps to reproduce (if applicable)
@@ -35,7 +35,7 @@ Please include as much detail as possible:
 
 ---
 
-### ⏳ Response Timeline
+### Response Timeline
 - **Initial acknowledgment:** within **72 hours**
 - **Status update:** within **7 days**
 - **Fix or mitigation:** as soon as reasonably possible
@@ -44,7 +44,7 @@ Timelines may vary depending on severity and complexity.
 
 ---
 
-### ✅ Disclosure Process
+### Disclosure Process
 - If the report is accepted, we will work on a fix and coordinate disclosure
 - If declined, we will provide a brief explanation where possible
 - We appreciate responsible disclosure and will credit reporters if desired
