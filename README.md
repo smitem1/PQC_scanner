@@ -1,4 +1,4 @@
-# PQC_scanner
+# Quantum shield 🛡 
 This is a Python-based CLI tool that inventories the TLS encryption posture of specified domains and services to support post-quantum cryptography (PQC) readiness and crypto-agility planning.
 
 The tool performs standard TLS handshakes to collect certificate and cryptographic metadata (e.g., TLS version, public-key algorithm, certificate validity) and applies a proxy-based risk model to help prioritize which endpoints may require attention as organizations plan for a future PQC transition.
